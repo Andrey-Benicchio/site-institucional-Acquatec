@@ -1,0 +1,189 @@
+.header{
+    color: #32b9cd;
+    border-bottom: 3px solid #32b9cd;
+    /* border: 3px solid yellow; */
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 3px solid red; */
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 600px;
+    align-items: center;
+    color: #E3b062;
+    /* border: 3px solid blue; */
+}
+
+.agora{
+    font-weight: 1000;
+}
+
+.banner{
+    height: 500px;
+    background-image: url(imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+    
+}
+
+.banner .container
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner .container p
+{
+    width: 280px;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    color: white;
+
+}
+
+.banner span
+{
+    font-weight: bold;
+}
+
+li a
+{
+    text-decoration: nome;
+    color: #E3b062;
+}
+
+.form-box
+{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 30px;
+    border: solid 2px #32b9cd;
+    border-radius: 10px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+    font-family: monospace;
+    border: 110,gray;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 0;
+    color: white;
+    background-color: #e6005a;
+    width: 126px;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.btn2{
+    font-family: monospace;
+    height: 25px;
+    border-radius: 5px ;
+    border:110px , #e6005a;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 0;
+    color: #e6005a;
+    background-color:#e5e5e5;
+    align-self: center;
+}
+    
+.banner .card
+{
+    background-color:#e5e5e5 ;
+    height: 450px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e6005a;
+}
+
+.footer{
+    background-color: #32b9cd;
+    margin-top:100px;
+    border-bottom: #32b9cd;
+    border: solid, 3px, #32b9cd;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container_missao{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e5e5e5;
+    align-items: center;
+    padding: 10px;
+    width: 100vw;
+    height: 50vh; 
+    flex-direction: row ;   
+    margin-top:130px;    
+    
+}
+
+
+
+
+
+.img1{
+    background-color:#e5e5e5;
+    margin-top: 150px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2{
+    background-color: #e5e5e5;
+    margin-top: 150px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img3{
+    background-color: #e5e5e5;
+    margin-top: 150px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
